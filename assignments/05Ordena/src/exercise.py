@@ -1,6 +1,6 @@
 #Este programa ordena de manera ascendente tres números enteros
 
-
+##ESTE CODIGO TIENE UNA SINTAXIS QUE NO VIMOS EN CLASE, PARECE COMO QUE COPIASTE EL CODIGO DE ALGUN LADO
 
 def main():
 # Escribe el código adecuado para completar el programa

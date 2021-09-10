@@ -11,10 +11,10 @@ def main():
 
     else:
         print(' Licencia denegada ')
-    identificacion = str(input( ' Tienes identificaciónoficial? (s/n) ')
-    if identificacion == "si":
-                   print('Licencia autorizada')
-    elif identificacion == "no":
+    identificacion = str(input( ' Tienes identificaciónoficial? (s/n) ')) ##1. Indicas que conteste con s o n
+    if identificacion == "si": ##2. Tienes que usar las mismas letras que definiste en 1
+                print('Licencia autorizada')
+    elif identificacion == "no": ##2. Tienes que usar las mismas letras que definiste en 1
                         print('Licencia rechazada')
         
         

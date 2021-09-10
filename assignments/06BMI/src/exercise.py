@@ -5,7 +5,7 @@ def main():
     # Escribe el código adecuado para completar el programa
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
-    IMC = peso / altura**2
+    IMC = peso / altura**2  ##olvidaste verificar que no fueran 0
     if IMC < 20:
         print(' PESO BAJO ')
     if IMC <= 20 and IMC < 25:
